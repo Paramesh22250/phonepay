@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hovering</title>
+    <style>
+        .top {
+            display: block;
+            width: fit-content;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .hat:hover .hide {
+            display: inline-block;
+        }
+
+        .mains {
+            color: greenyellow;
+            background-color: darkblue;
+            position: sticky;
+            top: 0;
+            margin: 0px 0px 0px 0px;
+            width: 100%;
+            display: flex;
+            padding: 5px 0;
+            justify-content: space-between;
+            font-size: large;
+        }
+
+        .list {
+            display: flex;
+        }
+
+        .items {
+            padding: 0 5px;
+        }
+
+        .mains a {
+            text-decoration: none;
+            color: greenyellow;
+        }
+
+        body a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mains">
+        <div class="icon"><a href="#top">Icon</a></div>
+        <div class="list">
+            <div class="items"><a href="#">Home</a></div>
+            <div class="items"><a href="#">About</a></div>
+            <div class="items"><a href="#">Log In</a></div>
+            <div class="items"><a href="#">Sign In</a></div>
+        </div>
+    </div>
+    <table border="1" width="fit-content">
+        <tr>
+            <th><b>UNIT-1</b></th>
+        </tr>
+        <tr>
+            <td><b>Introduction to Embedded Systems:</b><span class="hat">Definition of Embedded System,&nbsp;
+                    <div class="hide"><a href= "https://www.google.com/" target="_blank">class notes &nbsp;,</a><a href="https://youtu.be/uQ0LGwPBC2c?si=_ON7k9iHmUprEw-b" target="_blank">videos</a></div>
+                </span>
+                <span class="hat">Embedded Systems Vs General Computing Systems,&nbsp;
+                    <div class="hide"><a href="#">class notes</a></div>
+                </span>
+                <span class="hat">History of Embedded Systems,&nbsp;
+                    <div class="hide"><a href="#">Class notes</a></div>
+                </span>
+                <span class="hat">Classification,&nbsp;
+                    <div class="hide"><a href="#">Class notes</a></div>
+                </span>
+                <span class="hat">Major Application Areas
+                    <div class="hide"><a href="#">Class notes</a></div>
+                </span>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <th><b>UNIT-2</b></th>
+        </tr>
+        <tr>
+            <td><b>Introduction to Embedded Systems:</b>Definition of Embedded System, Embedded Systems Vs General
+                Computing Systems, History of Embedded Systems, Classification, Major Application Areas</td>
+        </tr>
+        <th><b>UNIT-3</b></th>
+        <tr>
+            <td><b>Introduction to Embedded Systems:</b><span class="hat">Definition of Embedded System,<div
+                        class="hide"><a href="#">notes</a></div></span> <span class="hat"> Embedded Systems Vs General
+                    Computing Systems,<div class="hide"><a href="#">notes</a></div></span> <span class="hat">History of
+                    Embedded Systems,<div class="hide"><a href="#">notes</a></div> </span> <span
+                    class="hat">Classification,<div class="hide"><a href="#">notes</a></div></span> <span
+                    class="hat">Major Application Areas <div class="hide"><a href="#">notes</a></div></span></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.col1,.col2{
+    margin: 5px 5px;
+}
+.col2,.Home-content{
+    padding-top: 5%;
+}
+.col1 img{
+    transition: 0.5s;
+}
+.col1 img:hover{
+    transform:scale(1.3);
+}

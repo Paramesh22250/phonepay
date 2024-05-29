@@ -1,0 +1,23 @@
+section{
+    padding: 20px;
+    text-align: center;
+}
+#inc{
+    color: white;
+    background-color: #32c888;
+    border: 0;
+    border-radius: 4px;
+    height: 30px
+}
+#sav{
+    color: white;
+    background-color: #e60909;
+    border: 0;
+    border-radius: 4px;
+    height: 30px
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-numerology-background_23-2150051037.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

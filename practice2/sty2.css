@@ -1,0 +1,22 @@
+.green{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 200px;
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
